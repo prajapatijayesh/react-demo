@@ -1,18 +1,18 @@
-## React + Formik
+# React + Formik
 
-# Available Scripts
+## Available Scripts
 
-# `yarn start`
+### `yarn start`
 Runs the app in the development mode.
 
-# `yarn build`
+### `yarn build`
 Builds the app for production to the `build` folder.
 
-### Snapshot
+# Snapshot
 
 ## sign-in
-![SignIn](../public/img/sign-in.png)
+![SignIn](./public/img/sign-in.png)
 ## sign-up
-![SignUp](../public/img/sign-up.png)
+![SignUp](./public/img/sign-up.png)
 ## forgot-password
-![ForgotPassword](../public/img/forgot-password.png)
+![ForgotPassword](./public/img/forgot-password.png)
