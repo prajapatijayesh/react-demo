@@ -77,7 +77,7 @@ function Login() {
                             {error && <><small style={{ color: 'red' }}>{error}</small> </>}
 
                             <p className="forgot-password text-right">
-                                Forgot <a href="/forgot-passport">password?</a>
+                                Forgot <a href="/forgot-password">password?</a>
                             </p>
                             <p className="forgot-password text-right">
                                 Register <a href="/sign-up">sign up?</a>

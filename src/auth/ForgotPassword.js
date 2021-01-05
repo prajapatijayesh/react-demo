@@ -1,14 +1,14 @@
 
 import React, { useState } from 'react';
 
-function ForgotPassport() {
+function ForgotPassword() {
     const email = useFormInput('');
 
-    const forgotPassport = () => {
+    const forgotPassword = () => {
         /** 
         * API
         */
-        console.log('forgotPassport');
+        console.log('forgot password');
     }
 
     return (
@@ -16,12 +16,12 @@ function ForgotPassport() {
             <div className="auth-wrapper" style={{ paddingTop: "100px" }}>
                 <div className="auth-inner">
                     <form>
-                        <h3>Forgot Passport</h3>
+                        <h3>Forgot Password</h3>
                         <div className="form-group">
                             <label>Email address</label>
                             <input type="email" className="form-control" placeholder="Enter email" {...email} />
                         </div>
-                        <input type="submit" name="forgot-passport" value="Submit" onClick={forgotPassport} className="btn btn-primary btn-block" />
+                        <input type="submit" name="forgot-password" value="Submit" onClick={forgotPassword} className="btn btn-primary btn-block" />
                     </form>
                 </div>
             </div>
@@ -39,4 +39,4 @@ const useFormInput = initialValue => {
         onChange: handleChange
     }
 }
-export default ForgotPassport;
+export default ForgotPassword;
